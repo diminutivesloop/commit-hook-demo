@@ -1,0 +1,23 @@
+{
+  "name": "vscode-commit-hook-test",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node hello.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": ">=4",
+    "lint-staged": ">=10",
+    "prettier": "^2.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
