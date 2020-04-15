@@ -1,5 +1,5 @@
 {
-  "name": "vscode-commit-hook-test",
+  "name": "commit-hook-demo",
   "version": "1.0.0",
   "main": "hello.js",
   "license": "MIT",
